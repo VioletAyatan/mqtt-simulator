@@ -1,0 +1,19 @@
+{
+  "name": "远程运维协议",
+  "configurations": [
+    {
+      "title": "心跳包",
+      "desc": "设备连接到服务器后，主动向服务器发送心跳包。",
+      "topic": "csrd/iot/oam/damage/1111/22222/msg/heartbeat/",
+      "content": {
+      }
+    },
+    {
+      "title": "监测主机状态上报",
+      "desc": "监测主机定时上传系统相关的信息至服务器（例如：内存容量、内存占用、硬盘容量、硬盘占用等）。",
+      "topic": "csrd/iot/oam/damage/1111/22222/msg/monitor/",
+      "content": {
+      }
+    }
+  ]
+}
