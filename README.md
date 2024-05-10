@@ -1,5 +1,7 @@
 # MQTT消息模拟器
 
+:construction: 功能开发中……
+
 ## 构建工具
 
 推荐使用 `mvnd`

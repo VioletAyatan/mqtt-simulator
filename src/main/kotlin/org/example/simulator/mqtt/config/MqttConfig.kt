@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory
 import org.springframework.aot.hint.RuntimeHints
 import org.springframework.aot.hint.RuntimeHintsRegistrar
 import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
 import org.springframework.integration.annotation.IntegrationComponentScan
 import org.springframework.integration.annotation.ServiceActivator
 import org.springframework.integration.channel.DirectChannel
@@ -21,7 +20,7 @@ import org.springframework.integration.mqtt.support.DefaultPahoMessageConverter
 import org.springframework.messaging.MessageChannel
 import org.springframework.messaging.MessageHandler
 
-@Configuration
+//@Configuration
 @RequiredArgsConstructor
 @IntegrationComponentScan("org.example.simulator.mqtt")
 class MqttConfig {
