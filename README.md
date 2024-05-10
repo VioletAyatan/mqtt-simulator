@@ -8,5 +8,5 @@
 
 ## 构建指令
 
-- 打包成jar包 `mvnd clean compile`
-- 打包Native可执行程序 `mvnd native:compile -Pnative`
+- 打包成jar包 `mvn clean compile`
+- 打包Native可执行程序 `mvn native:compile -Pnative`
