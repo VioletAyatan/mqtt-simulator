@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mqtt-configuration name="远程运维协议">
+    <configurations>
+        <config titile="心跳包" desc="设备连接到服务器后，主动向服务器发送心跳包。">
+            <topic>csrd/iot/oam/damage/1111/22222/msg/heartbeat/</topic>
+            <content/>
+        </config>
+        <config titile="监测主机状态上报"
+                desc="监测主机定时上传系统相关的信息至服务器（例如：内存容量、内存占用、硬盘容量、硬盘占用等）。">
+            <topic>csrd/iot/oam/damage/1111/22222/msg/monitor/</topic>
+            <content></content>
+        </config>
+        <config titile="监测分机状态上报" desc="监测主机在检测到采集卡状态发生变更时主动向服务器上报变更数据。">
+            <topic>csrd/iot/oam/damage/1111/22222/msg/acquired_card/</topic>
+            <content></content>
+        </config>
+    </configurations>
+</mqtt-configuration>

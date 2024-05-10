@@ -1,3 +1,6 @@
 spring:
   application:
     name: mqtt-simulator
+
+server:
+  port: 8081
