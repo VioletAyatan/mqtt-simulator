@@ -1,11 +1,11 @@
-package org.example.simulator.parser;
+package org.example.simulator.mqtt.entity;
 
 import lombok.Data;
 
 import java.util.List;
 
 @Data
-public class MqttConfig {
+public class MqttConfigEntity {
 
     private String name;
     private List<ConfigurationsDTO> configurations;
